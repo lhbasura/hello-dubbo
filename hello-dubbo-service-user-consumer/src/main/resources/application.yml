@@ -18,9 +18,11 @@ dubbo:
     name: dubbo
     port: 12345
     status: server
+    serialization: kryo
   registry:
     id: zookeeper
     address: zookeeper://192.168.32.48:2181?backup=192.168.32.48:2182,192.168.32.48:2183
+
 # Enables Dubbo All Endpoints
 management:
   endpoint:
