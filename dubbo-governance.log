@@ -5,7 +5,6 @@
 2019-08-08 22:45:50.993  INFO 24378 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
 2019-08-08 22:45:51.087  INFO 24378 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
 2019-08-08 22:45:51.118  INFO 24378 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-08-08 22:45:51.192  INFO 24378 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 2019-08-08 22:45:51.408  INFO 24378 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: disableRouteUsingPUT_1
 2019-08-08 22:45:51.410  INFO 24378 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: enableRouteUsingPUT_1
 2019-08-08 22:45:51.440  INFO 24378 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: searchServiceUsingGET_1

@@ -10,8 +10,10 @@ dubbo:
   application:
     id: hello-dubbo-service-user-provider
     name: hello-dubbo-service-user-provider
+
     qos-port: 22222
     qos-enable: true
+    qos-accept-foreign-ip: true
   protocol:
     id: dubbo
     name: dubbo
@@ -20,7 +22,7 @@ dubbo:
     serialization: kryo
   registry:
     id: zookeeper
-    address: zookeeper://192.168.32.48:2181?backup=192.168.32.48:2182,192.168.32.48:2183
+    address: zookeeper://192.168.32.47:2181?backup=192.168.32.47:2182,192.168.32.47:2183
   provider:
     loadbalance: roundrobin
 # Enables Dubbo All Endpoints

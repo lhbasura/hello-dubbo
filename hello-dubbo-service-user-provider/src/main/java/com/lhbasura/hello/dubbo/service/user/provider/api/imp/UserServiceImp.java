@@ -16,7 +16,7 @@ public class UserServiceImp implements UserService {
             @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "2000")
     })    @Override
     public String sayHi() {
-        throw new RuntimeException("Exception for hystrix");
-     //   return "hello dubbo,from port:"+port;
+     //   throw new RuntimeException("Exception for hystrix");
+        return "hello dubbo,from port:"+port;
     }
 }
