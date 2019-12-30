@@ -77,7 +77,6 @@
     </build>
 
     <modules>
-        <module>dubbo-admin</module>
         <module>hello-dubbo-service-user-api</module>
         <module>hello-dubbo-service-user-provider</module>
         <module>hello-dubbo-service-user-consumer</module>
